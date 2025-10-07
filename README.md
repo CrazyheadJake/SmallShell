@@ -11,6 +11,7 @@ A minimalistic shell written in C that supports some basic shell features.
 - A line starting with a # is a comment and will be ignored
 
 ## Built-in Commands
+These commands are built in to the shell, all others will run using execvp()
 - `status` returns the previous commands exit code
 - `cd` changes the current working directory
 - `exit` exits the shell
