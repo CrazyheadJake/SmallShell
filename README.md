@@ -9,7 +9,11 @@ A minimalistic shell written in C that supports some basic shell features.
 - SIGTSTP (Ctrl + z) is used to toggle whether background commands are accepted
 - SIGINT (Ctrl + c) is used to kill the current running command. It does not kill SmallShell or background processes
 - A line starting with a # is a comment and will be ignored
+
+## Built-in Commands
 - `status` returns the previous commands exit code
+- `cd` changes the current working directory
+- `exit` exits the shell
 
 ## Requirements
 - Make
